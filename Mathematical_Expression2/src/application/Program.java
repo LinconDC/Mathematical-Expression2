@@ -63,7 +63,7 @@ public class Program {
 		double preco = sc.nextDouble();
 		double total = qte * preco;
 
-		System.out.printf("Valor a pagar: R$ %.2f%n", total);
+		System.out.printf("Código da peça: %d, Valor a pagar: R$ %.2f%n ", cod, total);
 
 		sc.close();
 
